@@ -26,7 +26,7 @@ public enum Rank {
 public class Card {
     public Suit suit;
     public Rank rank;
-    public float position;
+    public int position;
     public Card(Suit suit, Rank rank, int position){
         this.suit = suit;
         this.rank = rank;
@@ -62,7 +62,7 @@ public class Deck {
         this.cards = shuffled;
     }
 
-    // deal one
+    // deal one card. If empty, return null
     public Card? deal_one_card() { 
         if(this.cards.Count > 0){
             Card drawnCard = this.cards[0];
