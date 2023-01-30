@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckDealer", "..\DeckDealer\DeckDealer.csproj", "{D98758DC-40AF-46EF-9256-442371BC8090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckTest", "..\DeckTest\DeckTest.csproj", "{32753821-C5D4-41E6-A17C-EA0D0DBA6BF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D98758DC-40AF-46EF-9256-442371BC8090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98758DC-40AF-46EF-9256-442371BC8090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98758DC-40AF-46EF-9256-442371BC8090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98758DC-40AF-46EF-9256-442371BC8090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32753821-C5D4-41E6-A17C-EA0D0DBA6BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32753821-C5D4-41E6-A17C-EA0D0DBA6BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32753821-C5D4-41E6-A17C-EA0D0DBA6BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32753821-C5D4-41E6-A17C-EA0D0DBA6BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
